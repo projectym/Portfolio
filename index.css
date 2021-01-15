@@ -1,0 +1,76 @@
+body{
+    font-size: 1.5em;
+}
+nav{
+    background-color: #222;
+    width: 100%;
+    position: sticky;
+    top:0;
+    height: 8vh;
+}
+
+main section{
+    min-height: 92vh;
+    border-bottom: 2px dotted #222; 
+}
+
+.contact-section{
+    height: auto;
+}
+
+section h2{
+    text-align: center;
+}
+
+.hero-section{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    text-align: right;
+}
+
+.hero-section img{
+    margin: 0 50px;
+}
+
+.hero-info{
+    max-width: 600px;
+        text-align: right;
+
+}
+
+.profile-img{
+    width: 250px;
+    border-radius: 125px;
+}
+
+.project-area{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px dotted #222;
+    justify-content: center;
+}
+
+.project-container{
+    width: min(500px, 90%);
+    min-height: 400px;
+    border: 2px dotted #222;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+}
